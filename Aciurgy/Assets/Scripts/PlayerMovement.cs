@@ -6,24 +6,30 @@ public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed;
     public Rigidbody2D rb;
+    public VectorValue startingPosition;
 
     private Vector2 moveDirection;
-   
+
+    private void Start()
+    {
+        transform.position = startingPosition.initialvalue;
+    }
+
     void Update()
     {
-        
+        ProcessInputs();
     }
    
     void FixedUpdate()
     {
-        
+        Move();
     }
     
     void ProcessInputs()
     {
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
-        moveDirection = new Vector2(moveX, moveY);
+        moveDirection = new Vector2(moveX, moveY).normalized;
     }
     void Move()
     {
