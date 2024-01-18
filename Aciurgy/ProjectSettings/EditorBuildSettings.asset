@@ -6,9 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Kids Bedroom.unity
+    path: Assets/Scenes/fLOOR 1/Kids Bedroom.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Hallway.unity
+    path: Assets/Scenes/fLOOR 1/Kids Bedroom 2.unity
+    guid: 3d238efdd2b59c448b6dfcc6e2662fb0
+  - enabled: 1
+    path: Assets/Scenes/fLOOR 1/Hallway.unity
     guid: cfbdc7cb447cb2f4f92f5f0f22beb814
+  - enabled: 1
+    path: Assets/Scenes/fLOOR 1/Managers office.unity
+    guid: 2faa701eff2b2314e979e1a6c1c9ba82
+  - enabled: 1
+    path: Assets/Scenes/fLOOR 1/Kids Playroom.unity
+    guid: 01a7290ac683bb941bbb8eedca069dd3
   m_configObjects: {}
