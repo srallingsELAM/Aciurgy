@@ -26,4 +26,31 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/fLOOR 1/Inside Vent.unity
     guid: 6d3234c3636e6d04ebb8413592deb5e9
+  - enabled: 1
+    path: Assets/Scenes/fLOOR 1/Meetings Room.unity
+    guid: 818c27a316474a846814eb69ad9fc193
+  - enabled: 1
+    path: Assets/Scenes/FLOOR 2/Hallway Floor 2.unity
+    guid: 7ceb3b4b7c3e1f34a8791b001c38b4bd
+  - enabled: 1
+    path: Assets/Scenes/FLOOR 2/Surgery Room 1.unity
+    guid: f443232dad665ea4ca7f2f18f2c6df29
+  - enabled: 1
+    path: Assets/Scenes/FLOOR 2/Surgery Room 2.unity
+    guid: 2370381e20da50949bf699dfa763c7d2
+  - enabled: 1
+    path: Assets/Scenes/FLOOR 2/Janitor Room.unity
+    guid: cfca6e5c7b48bcd40bc4f0a53f3aa3cf
+  - enabled: 1
+    path: Assets/Scenes/FLOOR 2/Shower.unity
+    guid: 271b2eca255cbce49a925127b57f3314
+  - enabled: 1
+    path: Assets/Scenes/FLOOR 2/Inside vent 2.unity
+    guid: aae38aca9adad38429fc88fa51f5478a
+  - enabled: 1
+    path: Assets/Scenes/FLOOR 2/Morgue.unity
+    guid: ba44bc557440dc547804838855fe3338
+  - enabled: 1
+    path: Assets/Scenes/FLOOR 3/Library.unity
+    guid: 988ea1551b3025d47988a828321df864
   m_configObjects: {}
