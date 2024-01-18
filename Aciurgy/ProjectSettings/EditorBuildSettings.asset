@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/fLOOR 1/Kids Playroom.unity
     guid: 01a7290ac683bb941bbb8eedca069dd3
+  - enabled: 1
+    path: Assets/Scenes/fLOOR 1/Storage Room.unity
+    guid: c9b51770a9b60d44db9d08efeaa98e88
+  - enabled: 1
+    path: Assets/Scenes/fLOOR 1/Inside Vent.unity
+    guid: 6d3234c3636e6d04ebb8413592deb5e9
   m_configObjects: {}
