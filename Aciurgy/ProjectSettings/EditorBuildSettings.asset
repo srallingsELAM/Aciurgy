@@ -53,4 +53,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FLOOR 3/Library.unity
     guid: 988ea1551b3025d47988a828321df864
+  - enabled: 1
+    path: Assets/Scenes/FLOOR 3/Storage Room 2.unity
+    guid: 845c0f512d6791942bb0b7b174322cc7
+  - enabled: 1
+    path: Assets/Scenes/FLOOR 3/Lobby.unity
+    guid: 87d77f0b83ac92a4fa2f746411db3dcb
+  - enabled: 1
+    path: Assets/Scenes/FLOOR 3/Escape.unity
+    guid: 2e5d2fda9db6ece43b332916566834f6
   m_configObjects: {}
