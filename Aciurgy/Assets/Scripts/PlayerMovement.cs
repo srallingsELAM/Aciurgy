@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
     public float moveSpeed;
     public Rigidbody2D rb;
     public VectorValue startingPosition;
+    public Animator anim;
 
     private Vector2 moveDirection;
 
@@ -18,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         ProcessInputs();
+        Animate();
     }
    
     void FixedUpdate()
@@ -36,5 +38,9 @@ public class PlayerMovement : MonoBehaviour
         rb.velocity = new Vector2(moveDirection.x * moveSpeed, moveDirection.y * moveSpeed);
     }
 
-
+    void Animate()
+    {
+        anim.SetFloat("AnimMoveX", moveDirection.x);
+        anim.SetFloat("AnimMoveY", moveDirection.y);
+    }
 }
