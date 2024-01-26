@@ -1,22 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerLife : MonoBehaviour
 {
-    private void OnCollisionEnter2D(Collision2D collision)
+    public int Respawn;
+
+    void OnTriggerEnter2D(Collider2D other)
     {
-        if(collision.gameObject.CompareTag("Guard"))
+        if(other.CompareTag("Player"))
         {
-            Die();
+            SceneManager.LoadScene(Respawn);
         }
     }
-
-    void Die ()
-    {
-        GetComponent<MeshRenderer>().enabled = false;
-        GetComponent<Rigidbody>().isKinematic = true;
-        GetComponent<PlayerMovement>().enabled = false;
-    }
-
 }
