@@ -30,7 +30,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8123936379836757215}
+  m_Father: {fileID: 3672622816338766339}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &4658778123217371733
@@ -212,7 +212,7 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 7993354493036467877}
   m_SourcePrefab: {fileID: 100100000, guid: 676b4db02a4b81d4b82a886a7e20d6b3, type: 3}
---- !u!1 &4885836691118377264 stripped
+--- !u!1 &109275461333899244 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6469547139400093378, guid: 676b4db02a4b81d4b82a886a7e20d6b3, type: 3}
   m_PrefabInstance: {fileID: 6362543573038995758}
@@ -223,7 +223,7 @@ CapsuleCollider2D:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4885836691118377264}
+  m_GameObject: {fileID: 109275461333899244}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -259,7 +259,7 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4885836691118377264}
+  m_GameObject: {fileID: 109275461333899244}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 6e4769079af73754fb4d9e5f905ae604, type: 2}
@@ -273,7 +273,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!4 &8123936379836757215 stripped
+--- !u!4 &3672622816338766339 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7690896186407056173, guid: 676b4db02a4b81d4b82a886a7e20d6b3, type: 3}
   m_PrefabInstance: {fileID: 6362543573038995758}
