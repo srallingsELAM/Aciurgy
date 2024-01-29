@@ -62,4 +62,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FLOOR 3/Escape.unity
     guid: 2e5d2fda9db6ece43b332916566834f6
+  - enabled: 1
+    path: Assets/Scenes/fLOOR 1/Main Menu.unity
+    guid: f1bb66ced062a314f9c877d4f0b37086
   m_configObjects: {}
