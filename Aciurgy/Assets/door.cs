@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class door : MonoBehaviour
 {
-    public bool locked:
+    public bool locked;
 
 
     void Start()
