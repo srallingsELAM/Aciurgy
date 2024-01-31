@@ -6,14 +6,14 @@ public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed;
     public Rigidbody2D rb;
-    public VectorValue startingPosition;
+   
     public Animator anim;
 
     private Vector2 moveDirection;
 
     private void Start()
     {
-        transform.position = startingPosition.initialvalue;
+      
     }
 
     void Update()
