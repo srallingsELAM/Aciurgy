@@ -11,6 +11,9 @@ public class Key : MonoBehaviour
         if (col.CompareTag("Player"))
         {
             door.GetComponent<BoxCollider2D>().enabled = false;
+          
         }
+       
+    
     }   
 }
