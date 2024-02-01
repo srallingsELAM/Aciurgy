@@ -6,9 +6,12 @@ public class door : MonoBehaviour
 {
     public bool locked;
 
+    private Animator anim;
+
 
     void Start()
     {
+        anim = GetComponent<Animator>();
         locked = true;
     }
 
@@ -21,6 +24,7 @@ public class door : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Key"))
         {
+            anim.SetTrigger("Open");
             locked = false;
         }
     }
