@@ -7559,11 +7559,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1258440066806312643, guid: f5b4357544dd77743b72302e3341384b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -16.76
+      value: -16.94
       objectReference: {fileID: 0}
     - target: {fileID: 1258440066806312643, guid: f5b4357544dd77743b72302e3341384b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.4299866
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 1258440066806312643, guid: f5b4357544dd77743b72302e3341384b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7599,15 +7599,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6654509212135540630, guid: f5b4357544dd77743b72302e3341384b, type: 3}
       propertyPath: sceneToLoad
-      value: Hallway Floor 2
+      value: Floor 3
       objectReference: {fileID: 0}
     - target: {fileID: 6654509212135540630, guid: f5b4357544dd77743b72302e3341384b, type: 3}
       propertyPath: playerPosition.x
-      value: -8.7
+      value: -6.81
       objectReference: {fileID: 0}
     - target: {fileID: 6654509212135540630, guid: f5b4357544dd77743b72302e3341384b, type: 3}
       propertyPath: playerPosition.y
-      value: 1
+      value: 2.2
       objectReference: {fileID: 0}
     - target: {fileID: 8864986696246842437, guid: f5b4357544dd77743b72302e3341384b, type: 3}
       propertyPath: m_Name
@@ -18586,9 +18586,21 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 3672622816338766339, guid: 3754f6e9fd333dc4086a5ab27ff76e08, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -61
+      objectReference: {fileID: 0}
+    - target: {fileID: 3672622816338766339, guid: 3754f6e9fd333dc4086a5ab27ff76e08, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 105.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3672622816338766339, guid: 3754f6e9fd333dc4086a5ab27ff76e08, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.08
+      objectReference: {fileID: 0}
     - target: {fileID: 4658778123217371733, guid: 3754f6e9fd333dc4086a5ab27ff76e08, type: 3}
       propertyPath: orthographic size
-      value: 10
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4885836691118377264, guid: 3754f6e9fd333dc4086a5ab27ff76e08, type: 3}
       propertyPath: m_Name
