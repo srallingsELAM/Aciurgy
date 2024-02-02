@@ -7,6 +7,7 @@ TagManager:
   - Waypoints
   - Guard
   - Key
+  - Door
   layers:
   - Default
   - TransparentFX
