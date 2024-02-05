@@ -45,9 +45,21 @@ EditorBuildSettings:
     path: Assets/Scenes/OldFloor1/Main Menu.unity
     guid: f1bb66ced062a314f9c877d4f0b37086
   - enabled: 1
-    path: Assets/Scenes/FLOOR1/Floor 1.unity
+    path: Assets/Scenes/FLOOR1/Main Menu.unity
+    guid: 1e1116707bef62d4cb61218c31aef42a
+  - enabled: 1
+    path: Assets/Scenes/FLOOR1/Character.unity
+    guid: 0ac9b013b4532df489068300a78615f5
+  - enabled: 1
+    path: Assets/Scenes/FLOOR1/Floor 1 BOY.unity
     guid: 6aaa9efceeee2db449116d67b52d1db8
+  - enabled: 1
+    path: Assets/Scenes/FLOOR1/Floor 1 GIRL.unity
+    guid: 4c00d905997ff9e4f8d366f37b77f554
   - enabled: 1
     path: Assets/Scenes/FLOOR 3/Floor 3.unity
     guid: b19e17cf66640254cb20c5a05f7ec0ca
+  - enabled: 1
+    path: Assets/Scenes/FLOOR 3/Escape.unity
+    guid: 5db39251d3f8d2c4bbc8e6e3894b25c5
   m_configObjects: {}
