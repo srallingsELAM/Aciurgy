@@ -426,7 +426,7 @@ GameObject:
   - component: {fileID: 826030465}
   - component: {fileID: 826030464}
   m_Layer: 5
-  m_Name: Start (1)
+  m_Name: Girl picker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -496,8 +496,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1591203976}
-        m_TargetAssemblyTypeName: LoadBoy, Assembly-CSharp
+      - m_Target: {fileID: 1591203977}
+        m_TargetAssemblyTypeName: LoadGirl, Assembly-CSharp
         m_MethodName: PlayGame
         m_Mode: 1
         m_Arguments:
@@ -704,7 +704,7 @@ GameObject:
   - component: {fileID: 1315797067}
   - component: {fileID: 1315797066}
   m_Layer: 5
-  m_Name: Start
+  m_Name: Boy picker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

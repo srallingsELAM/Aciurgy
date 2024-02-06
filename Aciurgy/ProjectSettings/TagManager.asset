@@ -8,6 +8,8 @@ TagManager:
   - Guard
   - Key
   - Door
+  - Key 2
+  - Door 2
   layers:
   - Default
   - TransparentFX
