@@ -12,21 +12,23 @@ public class Player : MonoBehaviour
 
     public Animator anim;
     private Vector2 moveDirection;
+    public float moveSpeed;
 
     private void Start()
     {
         movespeed = 5f;
     }
 
-    private void Update()
+    void Update()
     {
-        if (name == "PlayerOne")
+        if (tag == "PlayerOne")
         {
             dirX = Input.GetAxisRaw("Horizontal") * movespeed;
             dirY = Input.GetAxisRaw("Vertical") * movespeed;
+            moveDirection = new Vector2(dirX, dirY).normalized;
         }
 
-        if (name == "PlayerTwo" && Input.anyKey)
+        if (tag == "PlayerTwo" && Input.anyKey)
         {
 
             if (Input.GetKey(KeyCode.W))
@@ -51,17 +53,14 @@ public class Player : MonoBehaviour
         }
         else if (name == "PlayerTwo" && !Input.anyKey)
         {
-            dirX = 0f;
-            dirY = 0f;
+            dirX = 5f;
+            dirY = 5f;
         }
         ProcessInputs();
         Animate();
     }
 
-    private void FixedUpdate()
-    {
-        rb.velocity = new Vector2(dirX, dirY);
-    }
+    
     void Animate()
     {
         anim.SetFloat("AnimMoveX", moveDirection.x);
@@ -72,5 +71,9 @@ public class Player : MonoBehaviour
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
         moveDirection = new Vector2(moveX, moveY).normalized;
+    }
+    void Move()
+    {
+        rb.velocity = new Vector2(moveDirection.x * moveSpeed, moveDirection.y * moveSpeed);
     }
 }
