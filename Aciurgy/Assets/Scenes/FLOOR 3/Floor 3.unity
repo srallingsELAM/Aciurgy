@@ -1444,15 +1444,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6654509212135540630, guid: f5b4357544dd77743b72302e3341384b, type: 3}
       propertyPath: sceneToLoad
-      value: Floor 1
+      value: Floor 1 BOY
       objectReference: {fileID: 0}
     - target: {fileID: 6654509212135540630, guid: f5b4357544dd77743b72302e3341384b, type: 3}
       propertyPath: playerPosition.x
-      value: -16
+      value: -60
       objectReference: {fileID: 0}
     - target: {fileID: 6654509212135540630, guid: f5b4357544dd77743b72302e3341384b, type: 3}
       propertyPath: playerPosition.y
-      value: 1.4
+      value: 105.7
       objectReference: {fileID: 0}
     - target: {fileID: 8864986696246842437, guid: f5b4357544dd77743b72302e3341384b, type: 3}
       propertyPath: m_Name
