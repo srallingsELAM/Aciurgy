@@ -53,8 +53,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FLOOR1/Floor 1 BOY.unity
     guid: 6aaa9efceeee2db449116d67b52d1db8
-  - enabled: 1
-    path: Assets/Scenes/FLOOR1/Floor 1 GIRL.unity
+  - enabled: 0
+    path: Assets/Scenes/FLOOR1/Floor 1 GIRL 1.unity
     guid: 4c00d905997ff9e4f8d366f37b77f554
   - enabled: 1
     path: Assets/Scenes/FLOOR 3/Floor 3.unity
@@ -62,4 +62,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FLOOR 3/Escape.unity
     guid: 5db39251d3f8d2c4bbc8e6e3894b25c5
+  - enabled: 1
+    path: Assets/Scenes/FLOOR1/Floor 1 GIRL.unity
+    guid: 07fbb8a33f1353841b73f51b6b15debb
   m_configObjects: {}
