@@ -57,7 +57,7 @@ EditorBuildSettings:
     path: Assets/Scenes/FLOOR1/Floor 1 GIRL 1.unity
     guid: 4c00d905997ff9e4f8d366f37b77f554
   - enabled: 1
-    path: Assets/Scenes/FLOOR 3/Floor 3.unity
+    path: Assets/Scenes/FLOOR 3/Floor 3 BOY.unity
     guid: b19e17cf66640254cb20c5a05f7ec0ca
   - enabled: 1
     path: Assets/Scenes/FLOOR 3/Escape.unity
