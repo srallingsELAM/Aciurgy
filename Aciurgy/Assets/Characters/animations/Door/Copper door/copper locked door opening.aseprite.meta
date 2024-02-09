@@ -130,7 +130,7 @@ ScriptedImporter:
       y: 79
       width: 48
       height: 64
-    spriteID: d997ab0eb0f8b694f9adb9f0a063e1f0
+    spriteID: aee7269f08014914e8c621e4a7003458
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -150,7 +150,7 @@ ScriptedImporter:
       y: 151
       width: 48
       height: 64
-    spriteID: 4b99aee20a5e44649b5789341cca7372
+    spriteID: f3b1bbf841486e24bbf59c5f5f2370dc
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -170,7 +170,7 @@ ScriptedImporter:
       y: 4
       width: 48
       height: 64
-    spriteID: 63eb0056c5aaae24e8846b7ef29a5b2a
+    spriteID: 9b44fdf5337c08043b059af0ff9196f4
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -190,7 +190,7 @@ ScriptedImporter:
       y: 76
       width: 48
       height: 64
-    spriteID: c1e70a21714a16e4399469a4f5fa717d
+    spriteID: b84ab6e728b25294aae686a825078258
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -210,7 +210,7 @@ ScriptedImporter:
       y: 148
       width: 48
       height: 64
-    spriteID: 80a66d6e89ddea74d867c2a0eb1026b4
+    spriteID: 424f2d41695ce774c890859709d51034
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -230,7 +230,7 @@ ScriptedImporter:
       y: 4
       width: 48
       height: 64
-    spriteID: e8974cf23fde46246a76ee3790c5d717
+    spriteID: 752b05cbc8e21a645b52aa38563b3df9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -250,7 +250,7 @@ ScriptedImporter:
       y: 76
       width: 48
       height: 64
-    spriteID: 04e0e289c23d5b54ea7dc2b707d5dce3
+    spriteID: d00287e349c3cc24c8770717100f8db0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -270,7 +270,7 @@ ScriptedImporter:
       y: 148
       width: 48
       height: 64
-    spriteID: 957dee8bb2286bb4b9e59b8484742da8
+    spriteID: 13ade877942aac743a991c997aba1af5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -290,7 +290,7 @@ ScriptedImporter:
       y: 4
       width: 48
       height: 67
-    spriteID: 5a8e53fa708ef6045b353dce1ae9376f
+    spriteID: 7576ce7d2ffc1a3419bdad5a72ac049d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -315,7 +315,7 @@ ScriptedImporter:
         y: 4
         width: 48
         height: 64
-      spriteId: d997ab0eb0f8b694f9adb9f0a063e1f0
+      spriteId: aee7269f08014914e8c621e4a7003458
     - name: copper locked door opening_Frame_1
       frameIndex: 1
       cellRect:
@@ -323,7 +323,7 @@ ScriptedImporter:
         y: 4
         width: 48
         height: 64
-      spriteId: 4b99aee20a5e44649b5789341cca7372
+      spriteId: f3b1bbf841486e24bbf59c5f5f2370dc
     - name: copper locked door opening_Frame_2
       frameIndex: 2
       cellRect:
@@ -331,7 +331,7 @@ ScriptedImporter:
         y: 4
         width: 48
         height: 64
-      spriteId: 63eb0056c5aaae24e8846b7ef29a5b2a
+      spriteId: 9b44fdf5337c08043b059af0ff9196f4
     - name: copper locked door opening_Frame_3
       frameIndex: 3
       cellRect:
@@ -339,7 +339,7 @@ ScriptedImporter:
         y: 4
         width: 48
         height: 64
-      spriteId: c1e70a21714a16e4399469a4f5fa717d
+      spriteId: b84ab6e728b25294aae686a825078258
     - name: copper locked door opening_Frame_4
       frameIndex: 4
       cellRect:
@@ -347,7 +347,7 @@ ScriptedImporter:
         y: 4
         width: 48
         height: 64
-      spriteId: 80a66d6e89ddea74d867c2a0eb1026b4
+      spriteId: 424f2d41695ce774c890859709d51034
     - name: copper locked door opening_Frame_5
       frameIndex: 5
       cellRect:
@@ -355,7 +355,7 @@ ScriptedImporter:
         y: 4
         width: 48
         height: 64
-      spriteId: e8974cf23fde46246a76ee3790c5d717
+      spriteId: 752b05cbc8e21a645b52aa38563b3df9
     - name: copper locked door opening_Frame_6
       frameIndex: 6
       cellRect:
@@ -363,7 +363,7 @@ ScriptedImporter:
         y: 4
         width: 48
         height: 64
-      spriteId: 04e0e289c23d5b54ea7dc2b707d5dce3
+      spriteId: d00287e349c3cc24c8770717100f8db0
     - name: copper locked door opening_Frame_7
       frameIndex: 7
       cellRect:
@@ -371,7 +371,7 @@ ScriptedImporter:
         y: 4
         width: 48
         height: 64
-      spriteId: 957dee8bb2286bb4b9e59b8484742da8
+      spriteId: 13ade877942aac743a991c997aba1af5
     - name: copper locked door opening_Frame_8
       frameIndex: 8
       cellRect:
@@ -379,7 +379,7 @@ ScriptedImporter:
         y: 1
         width: 48
         height: 67
-      spriteId: 5a8e53fa708ef6045b353dce1ae9376f
+      spriteId: 7576ce7d2ffc1a3419bdad5a72ac049d
     linkedCells: []
     parentIndex: -1
   platformSettings: []

@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Teleport2 : MonoBehaviour
 {
-    public GameObject portal;
-    private GameObject player;
+    public GameObject portal2;
+    private GameObject player2;
     void Start()
     {
-        player = GameObject.FindWithTag("PlayerTwo");
+        player2 = GameObject.FindWithTag("PlayerTwo");
     }
 
 
@@ -16,7 +16,7 @@ public class Teleport2 : MonoBehaviour
     {
         if(collision.tag == "PlayerTwo")
         {
-            player.transform.position = new Vector2(portal.transform.position.x, portal.transform.position.y);  
+            player2.transform.position = new Vector2(portal2.transform.position.x, portal2.transform.position.y);  
         }
     }
 }

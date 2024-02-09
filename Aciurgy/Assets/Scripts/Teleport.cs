@@ -4,19 +4,19 @@ using UnityEngine;
 
 public class Teleport : MonoBehaviour
 {
-    public GameObject portal;
-    private GameObject player;
+    public GameObject portal2;
+    private GameObject player2;
     void Start()
     {
-        player = GameObject.FindWithTag("Player");
+        player2 = GameObject.FindWithTag("Player");
     }
 
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag == "Player")
+        if (collision.tag == "Player")
         {
-            player.transform.position = new Vector2(portal.transform.position.x, portal.transform.position.y);  
+            player2.transform.position = new Vector2(portal2.transform.position.x, portal2.transform.position.y);
         }
     }
 }
