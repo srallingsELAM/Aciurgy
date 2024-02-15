@@ -11,6 +11,7 @@ TagManager:
   - Key 2
   - Door 2
   - PlayerTwo
+  - Music
   layers:
   - Default
   - TransparentFX

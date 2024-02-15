@@ -11,7 +11,7 @@ public class PlayerLife : MonoBehaviour
     {
         if(other.CompareTag("Player"))
         {
-            SceneManager.LoadScene(Respawn);
+            SceneManager.LoadScene(2);
         }
     }
 }
