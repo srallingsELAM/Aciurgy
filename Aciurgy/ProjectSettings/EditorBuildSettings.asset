@@ -66,6 +66,9 @@ EditorBuildSettings:
     path: Assets/Scenes/FLOOR1/Floor 1 GIRL.unity
     guid: 07fbb8a33f1353841b73f51b6b15debb
   - enabled: 1
-    path: Assets/Scenes/FLOOR 3/Floor 3 GIRL.unity
+    path: Assets/Scenes/FLOOR 3/Floor 3 GIRL2.unity
     guid: 7d65aa951ce611941a7fbd79c9d1aff7
+  - enabled: 1
+    path: Assets/Scenes/FLOOR 3/Floor 3 GIRL.unity
+    guid: beb7a1b9c4ea0904e9c7be29ff28d78f
   m_configObjects: {}
