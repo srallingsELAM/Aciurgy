@@ -1349,7 +1349,7 @@ SpriteRenderer:
   m_Size: {x: 4.62, y: 6.64}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &958680248 stripped
@@ -2898,7 +2898,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.62, y: 6.44}
+    oldSize: {x: 4.62, y: 3.34}
     newSize: {x: 4.62, y: 6.44}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2943,7 +2943,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.62, y: 6.44}
+    oldSize: {x: 4.62, y: 3.34}
     newSize: {x: 4.62, y: 6.44}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2988,7 +2988,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.62, y: 6.44}
+    oldSize: {x: 4.62, y: 3.34}
     newSize: {x: 4.62, y: 6.44}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3033,7 +3033,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.62, y: 6.44}
+    oldSize: {x: 4.62, y: 3.34}
     newSize: {x: 4.62, y: 6.44}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3078,7 +3078,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.62, y: 6.44}
+    oldSize: {x: 4.62, y: 3.34}
     newSize: {x: 4.62, y: 6.44}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3123,7 +3123,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.62, y: 6.44}
+    oldSize: {x: 4.62, y: 3.34}
     newSize: {x: 4.62, y: 6.44}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3168,7 +3168,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.62, y: 6.44}
+    oldSize: {x: 4.62, y: 3.34}
     newSize: {x: 4.62, y: 6.44}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
