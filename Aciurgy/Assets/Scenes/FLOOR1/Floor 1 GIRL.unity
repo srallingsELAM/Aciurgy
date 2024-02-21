@@ -16738,9 +16738,6 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1107110972397500664, guid: 9343e16a23c8f0848a0d4431a64e4f34, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1497032209}
     - targetCorrespondingSourceObject: {fileID: 1121999870130994370, guid: 9343e16a23c8f0848a0d4431a64e4f34, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1497032208}
@@ -16851,18 +16848,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1497032209
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1497032206}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1334ffde064a9524fa0d27b3d9c1a309, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1503043258
 GameObject:
   m_ObjectHideFlags: 0
@@ -18681,6 +18666,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1828848897042227102, guid: 1710f55153456be4fb772f6cf0912021, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1653145129}
+    - targetCorrespondingSourceObject: {fileID: 1828848897042227102, guid: 1710f55153456be4fb772f6cf0912021, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1653145130}
   m_SourcePrefab: {fileID: 100100000, guid: 1710f55153456be4fb772f6cf0912021, type: 3}
 --- !u!4 &1653145126 stripped
 Transform:
@@ -18742,6 +18730,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.21, y: 0.51}
   m_EdgeRadius: 0
+--- !u!114 &1653145130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653145127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1334ffde064a9524fa0d27b3d9c1a309, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1653145139
 MonoBehaviour:
   m_ObjectHideFlags: 0

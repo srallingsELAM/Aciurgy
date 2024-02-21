@@ -5,35 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class PlayerLife : MonoBehaviour
 {
-    Vector2 startPos;
-    SpriteRenderer spriteRenderer;
-    private void Awake()
+    private void OnTriggerEnter2D(Collider2D col)
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
-    }
-    private void Start()
-    {
-        startPos = transform.position;
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Guard"))
+      if(col.CompareTag("Player"))
         {
-            Die();
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
-    }
-
-    void Die()
-    {
-        StartCoroutine(Respawn(0.5f));
-    }
-
-    IEnumerator Respawn(float duration)
-    {
-        spriteRenderer.enabled = false;
-        yield return new WaitForSeconds(duration);
-        transform.position = startPos;
-        spriteRenderer.enabled = true;
     }
 }
