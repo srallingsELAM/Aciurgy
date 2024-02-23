@@ -12,6 +12,7 @@ TagManager:
   - Door 2
   - PlayerTwo
   - Music
+  - Interact
   layers:
   - Default
   - TransparentFX
