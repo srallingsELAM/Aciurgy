@@ -5182,6 +5182,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1049630280}
   - component: {fileID: 1049630279}
+  - component: {fileID: 1049630281}
   m_Layer: 0
   m_Name: 10_PILEOFBOXESSIDE
   m_TagString: Untagged
@@ -5256,6 +5257,27 @@ Transform:
   m_Father: {fileID: 194287555}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1049630281
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1049630278}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3, y: 0.36024642, z: 0.2}
+  m_Center: {x: 0, y: 0.16487682, z: 0}
 --- !u!1 &1072421431
 GameObject:
   m_ObjectHideFlags: 0

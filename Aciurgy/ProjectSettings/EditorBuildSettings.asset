@@ -72,6 +72,12 @@ EditorBuildSettings:
     path: Assets/Scenes/FLOOR 3/Floor 3 GIRL.unity
     guid: beb7a1b9c4ea0904e9c7be29ff28d78f
   - enabled: 1
-    path: Assets/Scenes/FLOOR1/CutScene.unity
+    path: Assets/Scenes/FLOOR1/CutScene 1.unity
     guid: 5595d46f892ca054a87d3590d4740eef
+  - enabled: 1
+    path: Assets/Scenes/FLOOR1/CutScene 2.unity
+    guid: 1c542973aa9d2864dbd4ef38dc424e11
+  - enabled: 1
+    path: Assets/Scenes/FLOOR 2/Floor 2 BOY.unity
+    guid: f8b9d72cd58ad174db1dd4504b4f5188
   m_configObjects: {}

@@ -7,9 +7,17 @@ public class Cutscene : MonoBehaviour
 {
     
    
-    public void PlayGame()
+    public void CharacterPicker()
     {
         SceneManager.LoadSceneAsync(1);
     }
+
+    public void Cutscene2()
+    {
+        SceneManager.LoadSceneAsync(8);
+    }
+
+
+
 }
 
