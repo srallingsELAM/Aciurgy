@@ -2157,7 +2157,7 @@ MonoBehaviour:
   dialogueText: {fileID: 707764849}
   dialogue:
   - This way is blocked..
-  wordSpeed: 0.06
+  wordSpeed: 0.01
   playerIsClose: 0
 --- !u!61 &215244234
 BoxCollider2D:
@@ -2450,7 +2450,7 @@ MonoBehaviour:
   dialogueText: {fileID: 707764849}
   dialogue:
   - "mr cotton bottom\u2019s evil twin: we can't tell the difference sometimes "
-  wordSpeed: 0.06
+  wordSpeed: 0.01
   playerIsClose: 0
 --- !u!61 &219439572
 BoxCollider2D:
@@ -2966,12 +2966,9 @@ GameObject:
   m_Component:
   - component: {fileID: 250426520}
   - component: {fileID: 250426519}
-  - component: {fileID: 250426523}
-  - component: {fileID: 250426522}
-  - component: {fileID: 250426521}
   m_Layer: 0
   m_Name: 12_paper 2
-  m_TagString: Interact
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3043,83 +3040,6 @@ Transform:
   m_Father: {fileID: 1805581858}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &250426521
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 250426518}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01148b750557b7c4aa2ac01248654541, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvasTrigger: {fileID: 1856220466}
---- !u!114 &250426522
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 250426518}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58f53de1578c3db44bf1d9d26503e717, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialoguePanel: {fileID: 674303426}
-  dialogueText: {fileID: 707764849}
-  dialogue:
-  - subject 13 appears to be a rebellious type,
-  - 'some kind of sedation should be administered regularly for testing purposes. '
-  wordSpeed: 0.06
-  playerIsClose: 0
---- !u!61 &250426523
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 250426518}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.0019945204, y: -0.0059843063}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.17, y: 0.13}
-    newSize: {x: 0.17, y: 0.13}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.237813, y: 0.22174644}
-  m_EdgeRadius: 0
 --- !u!1 &268982174
 GameObject:
   m_ObjectHideFlags: 0
@@ -4852,7 +4772,7 @@ MonoBehaviour:
   dialogueText: {fileID: 707764849}
   dialogue:
   - 'I was playing and saw one of the adults sleeping with a key in the playroom! '
-  wordSpeed: 0.06
+  wordSpeed: 0.01
   playerIsClose: 0
 --- !u!61 &320202383
 BoxCollider2D:
@@ -5253,7 +5173,7 @@ MonoBehaviour:
   dialogueText: {fileID: 707764849}
   dialogue:
   - they hooked us to these so we can fall asleep
-  wordSpeed: 0.06
+  wordSpeed: 0.01
   playerIsClose: 0
 --- !u!61 &380251031
 BoxCollider2D:
@@ -6347,7 +6267,7 @@ MonoBehaviour:
   dialogueText: {fileID: 707764849}
   dialogue:
   - it's still you
-  wordSpeed: 0.06
+  wordSpeed: 0.01
   playerIsClose: 0
 --- !u!61 &457466086
 BoxCollider2D:
@@ -6434,7 +6354,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: 597dcb802e42604449a360853dde84f7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9575,7 +9495,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -7, y: -644}
+  m_AnchoredPosition: {x: -7, y: -598}
   m_SizeDelta: {x: -1015.4194, y: -562.2999}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &674303428
@@ -10639,7 +10559,7 @@ MonoBehaviour:
   dialogueText: {fileID: 707764849}
   dialogue:
   - hello mr spider
-  wordSpeed: 0.06
+  wordSpeed: 0.01
   playerIsClose: 0
 --- !u!61 &754315484
 BoxCollider2D:
@@ -11007,11 +10927,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58f53de1578c3db44bf1d9d26503e717, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialoguePanel: {fileID: 327087543}
+  dialoguePanel: {fileID: 674303426}
   dialogueText: {fileID: 707764849}
   dialogue:
   - the big rabbity thing, he's too big for the chest
-  wordSpeed: 0.06
+  wordSpeed: 0.01
   playerIsClose: 0
 --- !u!61 &802261061
 BoxCollider2D:
@@ -11204,7 +11124,7 @@ GameObject:
   - component: {fileID: 871015863}
   m_Layer: 0
   m_Name: 14_filing_cabnets
-  m_TagString: Interact
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11350,7 +11270,7 @@ MonoBehaviour:
   dialogueText: {fileID: 707764849}
   dialogue:
   - This is where they keep all the information for us
-  wordSpeed: 0.6
+  wordSpeed: 0.01
   playerIsClose: 0
 --- !u!61 &871015865
 BoxCollider2D:
@@ -12848,7 +12768,7 @@ MonoBehaviour:
   dialogueText: {fileID: 707764849}
   dialogue:
   - 'mr cotton bottom: we took him from the playroom'
-  wordSpeed: 0.06
+  wordSpeed: 0.01
   playerIsClose: 0
 --- !u!61 &1018383296
 BoxCollider2D:
@@ -13406,12 +13326,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1065674299}
   - component: {fileID: 1065674298}
-  - component: {fileID: 1065674301}
-  - component: {fileID: 1065674300}
-  - component: {fileID: 1065674302}
   m_Layer: 0
   m_Name: 11_paper 1
-  m_TagString: Interact
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13483,84 +13400,6 @@ Transform:
   m_Father: {fileID: 1805581858}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1065674300
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1065674297}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58f53de1578c3db44bf1d9d26503e717, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialoguePanel: {fileID: 674303426}
-  dialogueText: {fileID: 707764849}
-  dialogue:
-  - 'it says: subject 12 appears to have some kind of abnormality allowing for 2
-    different eye colours,'
-  - 'we must remove one at once. '
-  wordSpeed: 0.06
-  playerIsClose: 0
---- !u!61 &1065674301
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1065674297}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.10371402, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.16, y: 0.13}
-    newSize: {x: 0.16, y: 0.13}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.367428, y: 0.13}
-  m_EdgeRadius: 0
---- !u!114 &1065674302
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1065674297}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01148b750557b7c4aa2ac01248654541, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvasTrigger: {fileID: 1856220466}
 --- !u!1 &1088263512
 GameObject:
   m_ObjectHideFlags: 0
@@ -13926,7 +13765,7 @@ MonoBehaviour:
   dialogueText: {fileID: 707764849}
   dialogue:
   - i'll wake her later
-  wordSpeed: 0.06
+  wordSpeed: 0.01
   playerIsClose: 0
 --- !u!114 &1095003494
 MonoBehaviour:
@@ -14006,7 +13845,7 @@ MonoBehaviour:
   dialogueText: {fileID: 707764849}
   dialogue:
   - they hooked us to these so we can fall asleep
-  wordSpeed: 0.06
+  wordSpeed: 0.01
   playerIsClose: 0
 --- !u!61 &1100110790
 BoxCollider2D:
@@ -15494,7 +15333,7 @@ MonoBehaviour:
   dialogueText: {fileID: 707764849}
   dialogue:
   - hello Aurelia! You look sleepy
-  wordSpeed: 0.6
+  wordSpeed: 0.01
   playerIsClose: 0
 --- !u!61 &1218640184
 BoxCollider2D:
@@ -16836,7 +16675,7 @@ MonoBehaviour:
   dialogueText: {fileID: 707764849}
   dialogue:
   - it's mr graham, i've never seen his face before
-  wordSpeed: 0.06
+  wordSpeed: 0.01
   playerIsClose: 0
 --- !u!61 &1377329821
 BoxCollider2D:
@@ -17225,8 +17064,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1412884551}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -59.8811, y: 12.740288, z: 0.2499876}
-  m_LocalScale: {x: 2.77438, y: 1.85928, z: 1}
+  m_LocalPosition: {x: -59.5868, y: 12.740288, z: 0.2499876}
+  m_LocalScale: {x: 2.647036, y: 1.85928, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 141942902}
@@ -17471,7 +17310,7 @@ MonoBehaviour:
   dialogueText: {fileID: 707764849}
   dialogue:
   - the gears have not been working for a while
-  wordSpeed: 0.06
+  wordSpeed: 0.01
   playerIsClose: 0
 --- !u!61 &1422537298
 BoxCollider2D:
@@ -17647,7 +17486,7 @@ MonoBehaviour:
   dialogueText: {fileID: 707764849}
   dialogue:
   - hello sunday! i wish you could see me
-  wordSpeed: 0.6
+  wordSpeed: 0.01
   playerIsClose: 0
 --- !u!61 &1425556538
 BoxCollider2D:
@@ -19505,7 +19344,7 @@ MonoBehaviour:
   dialogueText: {fileID: 707764849}
   dialogue:
   - i wish i could see a real horse again soon
-  wordSpeed: 0.06
+  wordSpeed: 0.01
   playerIsClose: 0
 --- !u!61 &1586044124
 BoxCollider2D:
@@ -19961,7 +19800,7 @@ MonoBehaviour:
   dialogueText: {fileID: 707764849}
   dialogue:
   - i don't think we have ever used any of these before
-  wordSpeed: 0.06
+  wordSpeed: 0.01
   playerIsClose: 0
 --- !u!61 &1620472235
 BoxCollider2D:
@@ -20248,7 +20087,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 100
+  m_SortingOrder: 120
   m_Sprite: {fileID: 21300000, guid: 1d343d0c868434b44ae4abb10b82d088, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.29803923}
   m_FlipX: 0
@@ -22988,7 +22827,7 @@ MonoBehaviour:
   dialogueText: {fileID: 707764849}
   dialogue:
   - it's still you
-  wordSpeed: 0.06
+  wordSpeed: 0.01
   playerIsClose: 0
 --- !u!61 &1888426757
 BoxCollider2D:
@@ -24333,7 +24172,7 @@ MonoBehaviour:
   dialogueText: {fileID: 707764849}
   dialogue:
   - 'he has the key to the manager''s office down the hallway '
-  wordSpeed: 0.06
+  wordSpeed: 0.01
   playerIsClose: 0
 --- !u!1 &2017554166
 GameObject:
@@ -24438,7 +24277,7 @@ MonoBehaviour:
   dialogueText: {fileID: 707764849}
   dialogue:
   - 'miss cotton dress: she''s dirty and worn from hours of playtime '
-  wordSpeed: 0.06
+  wordSpeed: 0.01
   playerIsClose: 0
 --- !u!61 &2017554170
 BoxCollider2D:
@@ -26712,7 +26551,7 @@ MonoBehaviour:
   dialogueText: {fileID: 707764849}
   dialogue:
   - there's some blocks and some more crayons inside
-  wordSpeed: 0.06
+  wordSpeed: 0.01
   playerIsClose: 0
 --- !u!61 &2138596439
 BoxCollider2D:
